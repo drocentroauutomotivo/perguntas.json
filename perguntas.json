@@ -1,0 +1,44 @@
+{
+  "leitura": {
+    "1": [
+      { "texto": "O gato preto pulou o muro.", "pergunta": "Qual era a cor do gato?", "correta": "preto" },
+      { "texto": "O carro azul passou na ponte.", "pergunta": "Qual era o veículo?", "correta": "carro" }
+    ],
+    "2": [
+      { "texto": "O barco vermelho cruzou o rio.", "pergunta": "Onde o barco passou?", "correta": "rio" }
+    ]
+  },
+  "calculo": {
+    "1": [
+      { "conta": "2 + 3", "correta": 5 },
+      { "conta": "10 - 4", "correta": 6 }
+    ],
+    "2": [
+      { "conta": "5 * 2", "correta": 10 }
+    ]
+  },
+  "memoria": {
+    "1": [
+      { "palavras": ["gato", "casa", "rio"] }
+    ],
+    "2": [
+      { "palavras": ["livro", "mar", "estrela", "ponte"] }
+    ]
+  },
+  "decisao": {
+    "1": [
+      {
+        "texto": "Se todo A é B e todo B é C, o que podemos concluir?",
+        "correta": "Todo A é C",
+        "opcoes": ["Todo A é C", "Todo C é A", "Nenhum A é C", "Alguns A não são C"]
+      }
+    ],
+    "2": [
+      {
+        "texto": "Se P ⇒ Q e Q é falso, o que podemos dizer sobre P?",
+        "correta": "P é falso",
+        "opcoes": ["P é falso", "P é verdadeiro", "Nada se conclui", "P e Q são verdadeiros"]
+      }
+    ]
+  }
+}
