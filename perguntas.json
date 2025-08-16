@@ -2,27 +2,70 @@
   "leitura": {
     "1": [
       { "texto": "O gato preto pulou o muro.", "pergunta": "Qual era a cor do gato?", "correta": "preto" },
-      { "texto": "O carro azul passou na ponte.", "pergunta": "Qual era o veículo?", "correta": "carro" }
+      { "texto": "O carro azul passou na ponte.", "pergunta": "Qual era o veículo?", "correta": "carro" },
+      { "texto": "O pássaro verde voou sobre o lago.", "pergunta": "Qual era a cor do pássaro?", "correta": "verde" },
+      { "texto": "O cachorro marrom correu pelo parque.", "pergunta": "Qual era a cor do cachorro?", "correta": "marrom" },
+      { "texto": "O barco branco cruzou o rio.", "pergunta": "Qual era a cor do barco?", "correta": "branco" }
     ],
     "2": [
-      { "texto": "O barco vermelho cruzou o rio.", "pergunta": "Onde o barco passou?", "correta": "rio" }
+      { "texto": "A bicicleta vermelha passou pela rua movimentada.", "pergunta": "Qual era a cor da bicicleta?", "correta": "vermelha" },
+      { "texto": "O avião prateado sobrevoou a cidade.", "pergunta": "Qual era a cor do avião?", "correta": "prateado" },
+      { "texto": "O trem amarelo atravessou a ponte de ferro.", "pergunta": "Qual era a cor do trem?", "correta": "amarelo" },
+      { "texto": "O drone preto filmava o campo.", "pergunta": "Qual era a cor do drone?", "correta": "preto" },
+      { "texto": "O ônibus verde passou pelo túnel.", "pergunta": "Qual era a cor do ônibus?", "correta": "verde" }
+    ],
+    "3": [
+      { "texto": "O navio azul navegava durante a tempestade.", "pergunta": "Qual era a cor do navio?", "correta": "azul" },
+      { "texto": "O helicóptero amarelo resgatou pessoas na montanha.", "pergunta": "Qual era a cor do helicóptero?", "correta": "amarelo" },
+      { "texto": "O carro preto estacionou na praça central.", "pergunta": "Qual era a cor do carro?", "correta": "preto" },
+      { "texto": "O cavalo marrom galopava pela praia.", "pergunta": "Qual era a cor do cavalo?", "correta": "marrom" },
+      { "texto": "O caminhão branco transportava frutas.", "pergunta": "Qual era a cor do caminhão?", "correta": "branco" }
     ]
   },
   "calculo": {
     "1": [
       { "conta": "2 + 3", "correta": 5 },
-      { "conta": "10 - 4", "correta": 6 }
+      { "conta": "10 - 4", "correta": 6 },
+      { "conta": "5 + 7", "correta": 12 },
+      { "conta": "8 - 2", "correta": 6 },
+      { "conta": "4 + 9", "correta": 13 }
     ],
     "2": [
-      { "conta": "5 * 2", "correta": 10 }
+      { "conta": "6 * 2", "correta": 12 },
+      { "conta": "15 / 3", "correta": 5 },
+      { "conta": "9 * 3", "correta": 27 },
+      { "conta": "18 / 6", "correta": 3 },
+      { "conta": "7 * 4", "correta": 28 }
+    ],
+    "3": [
+      { "conta": "25 / 5", "correta": 5 },
+      { "conta": "12 * 12", "correta": 144 },
+      { "conta": "50 - 23", "correta": 27 },
+      { "conta": "33 + 17", "correta": 50 },
+      { "conta": "81 / 9", "correta": 9 }
     ]
   },
   "memoria": {
     "1": [
-      { "palavras": ["gato", "casa", "rio"] }
+      { "palavras": ["gato", "casa", "rio"] },
+      { "palavras": ["livro", "flor", "mar"] },
+      { "palavras": ["sol", "lua", "estrela"] },
+      { "palavras": ["carro", "ponte", "praia"] },
+      { "palavras": ["porta", "janela", "chave"] }
     ],
     "2": [
-      { "palavras": ["livro", "mar", "estrela", "ponte"] }
+      { "palavras": ["pão", "leite", "queijo", "mel"] },
+      { "palavras": ["noite", "dia", "tarde", "manhã"] },
+      { "palavras": ["bola", "raio", "ninho", "folha"] },
+      { "palavras": ["motor", "trilho", "mapa", "torre"] },
+      { "palavras": ["vento", "areia", "pedra", "relva"] }
+    ],
+    "3": [
+      { "palavras": ["montanha", "vale", "campo", "praia", "mar"] },
+      { "palavras": ["estrela", "lua", "neve", "fogo", "ferro"] },
+      { "palavras": ["luz", "sombra", "tronco", "folha", "raiz"] },
+      { "palavras": ["avião", "navio", "carro", "bicicleta", "trem"] },
+      { "palavras": ["mapa", "bússola", "ponte", "rio", "lago"] }
     ]
   },
   "decisao": {
@@ -31,6 +74,26 @@
         "texto": "Se todo A é B e todo B é C, o que podemos concluir?",
         "correta": "Todo A é C",
         "opcoes": ["Todo A é C", "Todo C é A", "Nenhum A é C", "Alguns A não são C"]
+      },
+      {
+        "texto": "Se P ⇒ Q e P é verdadeiro, o que podemos dizer sobre Q?",
+        "correta": "Q é verdadeiro",
+        "opcoes": ["Q é verdadeiro", "Q é falso", "Nada se conclui", "P é falso"]
+      },
+      {
+        "texto": "Se chove, então a rua molha. Está chovendo. O que ocorre?",
+        "correta": "A rua molha",
+        "opcoes": ["A rua molha", "A rua seca", "Nada se conclui", "O sol aparece"]
+      },
+      {
+        "texto": "Se um número é par, então é divisível por 2. O número 8 é par. Logo...",
+        "correta": "É divisível por 2",
+        "opcoes": ["É divisível por 2", "Não é divisível por 2", "Nada se conclui", "É primo"]
+      },
+      {
+        "texto": "Se João estuda, ele passa na prova. João passou na prova. Podemos concluir que...",
+        "correta": "Nada se conclui",
+        "opcoes": ["Ele estudou", "Nada se conclui", "Ele não estudou", "Ele colou"]
       }
     ],
     "2": [
@@ -38,6 +101,53 @@
         "texto": "Se P ⇒ Q e Q é falso, o que podemos dizer sobre P?",
         "correta": "P é falso",
         "opcoes": ["P é falso", "P é verdadeiro", "Nada se conclui", "P e Q são verdadeiros"]
+      },
+      {
+        "texto": "Se todos os pássaros voam e o animal X é pássaro, podemos concluir que...",
+        "correta": "X voa",
+        "opcoes": ["X voa", "X não voa", "Nada se conclui", "X é peixe"]
+      },
+      {
+        "texto": "Se nenhum A é B e todo C é A, então...",
+        "correta": "Nenhum C é B",
+        "opcoes": ["Nenhum C é B", "Todo C é B", "Alguns C são B", "Nada se conclui"]
+      },
+      {
+        "texto": "Se o céu está nublado, pode chover. O céu está nublado. Então...",
+        "correta": "Pode chover",
+        "opcoes": ["Pode chover", "Vai chover", "Não vai chover", "Nada se conclui"]
+      },
+      {
+        "texto": "Se Maria é mais alta que Ana e Ana é mais alta que João, então...",
+        "correta": "Maria é mais alta que João",
+        "opcoes": ["Maria é mais alta que João", "João é mais alto que Maria", "Nada se conclui", "Ana é mais alta que Maria"]
+      }
+    ],
+    "3": [
+      {
+        "texto": "Se A = B e B = C, então...",
+        "correta": "A = C",
+        "opcoes": ["A = C", "A ≠ C", "Nada se conclui", "C = B"]
+      },
+      {
+        "texto": "Se todo A é B e algum B é C, podemos concluir que...",
+        "correta": "Nada necessariamente sobre A e C",
+        "opcoes": ["Nada necessariamente sobre A e C", "Todo A é C", "Nenhum A é C", "Alguns A são C"]
+      },
+      {
+        "texto": "Exatamente uma das afirmações é verdadeira: (1) P é verdadeira. (2) Q é verdadeira. Se P é verdadeira, então...",
+        "correta": "Q é falsa",
+        "opcoes": ["Q é falsa", "Q é verdadeira", "Nada se conclui", "Ambas são verdadeiras"]
+      },
+      {
+        "texto": "Se P ⇔ Q é verdadeira e P é falso, então...",
+        "correta": "Q é falso",
+        "opcoes": ["Q é falso", "Q é verdadeiro", "Nada se conclui", "Q pode ser verdadeiro"]
+      },
+      {
+        "texto": "Se nenhum peixe voa e todos os salmões são peixes, então...",
+        "correta": "Nenhum salmão voa",
+        "opcoes": ["Nenhum salmão voa", "Todos os salmões voam", "Alguns salmões voam", "Nada se conclui"]
       }
     ]
   }
